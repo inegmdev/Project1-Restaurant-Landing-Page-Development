@@ -1,0 +1,16 @@
+.section.footer.text-center
+  .logo
+    img(src="./assets/img/logo.png", alt="Logo", draggable="false")
+
+  ul.footer-nav
+    each item in ['Reservations', 'Functions', 'Contact', 'Review & Media']
+      li
+        a(href="#")=item
+
+  ul.footer-media
+    each item in ['twitter','facebook','google-plus', 'instagram', 'rss']
+      li 
+        a(href="#") <span class="icon fa fa-#{item}"></span>
+
+  p.copyrights
+    |© Ai Restaurant <br> Designed by Islam Negm. All rights reserved.

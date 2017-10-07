@@ -1,0 +1,28 @@
+.section.chief-testimonials
+  .container
+    .row
+      .col-sm-6.col-xs-12.text-right.hidden-xs
+        .ratio-holder.limit-width
+          .ratio.chief-ratio
+          .ratio-content
+            img(src="./assets/img/chief.png", alt="chief")
+      .col-sm-6.col-xs-12.text-right
+        .section-header
+          h3.section-title <span class="small">review</span> The Food's Masters Say About Us
+        .section-body
+          .slider-container.chief-slider
+            .slider
+              .slider-banner
+                each i in [1,2,3,4,5,6]
+                  .slider-item.col-xs-12
+                    .testimonial.text-center
+                      h3.testimonial-title Best restaurant that I used to experience
+                      .testimonial-description
+                        p.paragraph
+                          | Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit tempore ex commodi asperiores, iure voluptatem quisquam quos quibusdam hic officia quod, accusantium eos ducimus similique fugiat rem excepturi deleniti saepe.
+                        .author.main-theme
+                          | Islam Negm
+
+            .slider-arrows.text-center
+                    button.arrow.prev <span class="fa fa-arrow-left"></span>
+                    button.arrow.next <span class="fa fa-arrow-right"></span>

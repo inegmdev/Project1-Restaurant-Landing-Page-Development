@@ -1,0 +1,20 @@
+header
+    .container
+        .logo
+            img(src="./assets/img/logo.png", alt="Logo", draggable="false")
+        
+        nav
+            button.nav-btn
+                each i in new Array(3)
+                    span.btn-line
+            ul.nav-list
+                each val in ['Home', 'Portfolio', 'Blog', 'Shop']
+                    li.list-item
+                        a(href="#")= val
+                        
+                li.list-item
+                    a(href="#") Reservation
+                        span.icon.fa.fa-angle-right
+        
+
+        
